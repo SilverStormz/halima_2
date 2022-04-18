@@ -18,7 +18,8 @@
     }
 
     p {
-        font-size: 24pt;
+        font-size: 20pt;
+       text-align: center: left;
     }
 
     .button {
@@ -73,12 +74,30 @@
   
 </style>
 
+<script>
+  function playPause(){
+    
+  }
+</script>
+
 <div>
     <h1>Welcome!</h1><br>
-    <p>This site has been visited {{ count }} times.</p>
+    <p>Introducing the most inclusive kid shows. Their  inclusivity helps newer generation do what I could not.</p>
 
-    <button class = "button button1">ATLA</button>
-    <button class = "button button2">TOH</button>
-    <button class = "button button3">SPOP</button>
-    <button class = "button button4">SU</button>
+    <button id = "TA" class = "button button1" onclick = "playPause()">
+      <audio
+    src="atla.mp3"
+    autoplay></audio>ATLA</button>
+    <button id = "Luz" class = "button button2" onclick = "playPause()">
+      <audio
+    src="TOH.mp3"
+    autoplay></audio>TOH</button>
+    <button id = "she-RA "class = "button button3" onclick = "playPause()">
+      <audio
+    src="spop.mp3"
+    autoplay></audio>SPOP</button>
+    <button id = "gem" class = "button button4" onclick = "playPause()">
+      <audio
+    src="lovelikeyou.mp3"
+    autoplay></audio>SU</button>
 </div>

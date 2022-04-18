@@ -76,17 +76,10 @@
 </style>
 
 <script>
-      var aud = document.getElementById("TA").children[0];
-      var isPlaying = false;
-       aud.pause();
-
-  function playPause() {
-    if (isPlaying) {
-      aud.pause();
-    } else {
-      aud.play();
-    }
-    isPlaying = !isPlaying;
+     
+  function playPause1() {
+    audio.play()
+    
   }
   
 </script>
@@ -95,19 +88,19 @@
     <h1>Welcome!</h1><br>
     <p>Introducing the most inclusive kid shows. Their  inclusivity helps newer generation do what I could not.</p>
 
-    <button id = "TA" class = "button button1" onclick = "playPause()">
+    <button class = "button button1" onclick = "playPause1()">
       <audio
     src="atla.mp3"
     autoplay></audio>ATLA</button>
-    <button id = "Luz" class = "button button2" onclick = "playPause()">
+    <button class = "button button2" onclick = "playPause2()">
       <audio
     src="TOH.mp3"
     autoplay></audio>TOH</button>
-    <button id = "she-RA "class = "button button3" onclick = "playPause()">
+    <button class = "button button3" onclick = "playPause3()">
       <audio
     src="spop.mp3"
     autoplay></audio>SPOP</button>
-    <button id = "gem" class = "button button4" onclick = "playPause()">
+    <button class = "button button4" onclick = "playPause4()">
       <audio
     src="lovelikeyou.mp3"
     autoplay></audio>SU</button>

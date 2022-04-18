@@ -77,10 +77,8 @@
 
 <script>
      
-  function playPause1() {
-    audio.play(src = "atla.mp3")
-    
-  }
+ var Ta = new Audio();
+ Ta.src = "atla.mp3"
   
 </script>
 
@@ -88,7 +86,7 @@
     <h1>Welcome!</h1><br>
     <p>Introducing the most inclusive kid shows. Their  inclusivity helps newer generation do what I could not.</p>
 
-    <button class = "button button1" onclick = "playPause1()">
+    <button class = "button button1" onclick = "atla.play()">
       <audio
     src="atla.mp3"
     autoplay></audio>ATLA</button>

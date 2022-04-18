@@ -76,19 +76,18 @@
 </style>
 
 <script>
-     
- var Ta = new Audio();
- Ta.src = "atla.mp3"
-  
+      function atlaplay(){
+       document.getElementById("ta").play();
+     }
 </script>
 
 <div>
     <h1>Welcome!</h1><br>
     <p>Introducing the most inclusive kid shows. Their  inclusivity helps newer generation do what I could not.</p>
 
-    <button class = "button button1" onclick = "atla.play()">
+    <button class = "button button1" onclick = "atlaplay()">
       <audio
-    src="atla.mp3"
+    src="atla.mp3" id = "ta"
     autoplay></audio>ATLA</button>
     <button class = "button button2" onclick = "playPause2()">
       <audio

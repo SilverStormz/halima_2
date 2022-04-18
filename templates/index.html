@@ -20,6 +20,7 @@
     p {
         font-size: 20pt;
        text-align: center left;
+       color: lightpink;
     }
 
     .button {
@@ -75,9 +76,19 @@
 </style>
 
 <script>
-  function playPause(){
-    
+      var aud = document.getElementById("TA").children[0];
+      var isPlaying = false;
+       aud.pause();
+
+  function playPause() {
+    if (isPlaying) {
+      aud.pause();
+    } else {
+      aud.play();
+    }
+    isPlaying = !isPlaying;
   }
+  
 </script>
 
 <div>

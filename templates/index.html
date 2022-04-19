@@ -20,7 +20,7 @@
     p {
         font-size: 20pt;
        text-align: center left;
-       color: lightpink;
+       color: lightpink
     }
 
     .button {
@@ -77,7 +77,7 @@
 
 <script>
       function atlaplay(){
-       document.getElementById("ta").play();
+       var audio = document.getElementById("ta").play();
      }
 </script>
 
@@ -87,18 +87,14 @@
 
     <button class = "button button1" onclick = "atlaplay()">
       <audio
-    src="atla.mp3" id = "ta"
-    autoplay></audio>ATLA</button>
+     id = "ta"src="atla.mp3"></audio>ATLA</button>
     <button class = "button button2" onclick = "playPause2()">
       <audio
-    src="TOH.mp3"
-    autoplay></audio>TOH</button>
+    src="TOH.mp3"></audio>TOH</button>
     <button class = "button button3" onclick = "playPause3()">
       <audio
-    src="spop.mp3"
-    autoplay></audio>SPOP</button>
+    src="spop.mp3"></audio>SPOP</button>
     <button class = "button button4" onclick = "playPause4()">
       <audio
-    src="lovelikeyou.mp3"
-    autoplay></audio>SU</button>
+    src="lovelikeyou.mp3"></audio>SU</button>
 </div>

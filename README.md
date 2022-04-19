@@ -10,3 +10,6 @@ Then came She-ra and the princesses of power which unlike other shows let you kn
 and finally The owl house which still runs.
 
 My hope is to eventually expand this project to build a full parallax website for deciding which queer supportive cartoons are available and kid friendly.
+
+
+link to the website using vercel - https://lab3-teal.vercel.app/

@@ -1,15 +1,20 @@
+<html>
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 
 
 <style>
+    body {
+        background-image:url("794.jpg");
+
+    }
     * {
         font-family: "Rubik", "sans-serif";
         
     }
 
     div {
-         background-image: url("794.jpg");
+       
         text-align: center;
         margin-top: 50px;
     }
@@ -84,14 +89,13 @@
        audio.play();
      }
 </script>
-
+<body>
 <div>
     <h1>Welcome!</h1><br>
     <p>Introducing the most inclusive kid shows. Their  inclusivity helps newer generation do what I could not.</p>
 
     <button class = "button button1" onclick = "atlaplay()">
-      <audio controls id = "ta">
-         <source src="data/atla.mp3" type ="auido/mpeg">
+      <audio controls id = "ta" src = "atla.mp3">
       </audio>ATLA</button>
     <button class = "button button2" onclick = "playPause2()">
       <audio
@@ -103,5 +107,5 @@
       <audio
     src="lovelikeyou.mp3"></audio>SU</button>
 </div>
-
+</body> </html>
  
